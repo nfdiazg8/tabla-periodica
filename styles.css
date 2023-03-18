@@ -10,9 +10,11 @@ h1 {
 }
 
 table {
-	border-collapse: collapse;
-	margin: 50px auto;
-}
+    width: 100%;
+    max-width: 1000px; /* ajusta este valor según sea necesario */
+    margin: 50px auto;
+    border-collapse: collapse;
+  }  
 
 th {
 	padding: 20px;
@@ -20,3 +22,5 @@ th {
 	color: #ffffff;
 	text-align: center;
 	font-size: 18px
+
+ 
