@@ -1,26 +1,58 @@
-body {
-	font-family: Arial, sans-serif;
-	background-color: #f4f4f4;
-}
-
-h1 {
-	text-align: center;
-	margin-top: 50px;
-	color: #1c1c1c;
-}
-
 table {
-    width: 100%;
-    max-width: 1000px; /* ajusta este valor según sea necesario */
-    margin: 50px auto;
     border-collapse: collapse;
-  }  
-
-th {
-	padding: 20px;
-	background-color: #1c1c1c;
-	color: #ffffff;
-	text-align: center;
-	font-size: 18px
-
- 
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #eee;
+    font-weight: bold;
+  }
+  
+  th[colspan="2"], th[colspan="18"], th[rowspan="2"], td[colspan="16"], td[colspan="12"] {
+    background-color: #ddd;
+  }
+  
+  td.symbol {
+    font-weight: bold;
+  }
+  
+  td:nth-of-type(1) {
+    background-color: #ffeb3b;
+  }
+  
+  td:nth-of-type(2) {
+    background-color: #ffc107;
+  }
+  
+  td:nth-of-type(13) {
+    background-color: #ff5722;
+  }
+  
+  td:nth-of-type(14) {
+    background-color: #607d8b;
+  }
+  
+  td:nth-of-type(15) {
+    background-color: #8bc34a;
+  }
+  
+  td:nth-of-type(16) {
+    background-color: #9c27b0;
+  }
+  
+  td:nth-of-type(17) {
+    background-color: #2196f3;
+  }
+  
+  td:nth-of-type(18) {
+    background-color: #f44336;
+  }
+  
